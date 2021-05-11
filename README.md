@@ -12,8 +12,11 @@ This scaffolding is for a fast create a new project you must change next files:
 ```
 cd frontend
 npm install
-npm run build
+ npm run-script autobuild
 ```
+
+* It have also add [smelte compoments](https://smeltejs.com/?ref=madewithsvelte.com)
+`npm install smelte`
 
 # Struct
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
