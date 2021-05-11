@@ -6,14 +6,15 @@ from backend import app, socketio
 # Path for our main Svelte page
 @app.route("/")
 def base():
-    return send_from_directory('../../frontend/public', 'index.html')
+    print("fff")
+    return send_from_directory('../frontend/public', 'index.html')
 
 
 
 # Path for all the static files (compiled JS/CSS, etc.)
 @app.route("/<path:path>")
 def home(path):
-    return send_from_directory('../../frontend/public', path)
+    return send_from_directory('../frontend/public', path)
 
 
 @app.after_request
